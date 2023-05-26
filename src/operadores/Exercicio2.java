@@ -19,7 +19,7 @@ public class Exercicio2 {
 		nota4 = leia.nextFloat();
 		
 		media = (nota1 + nota2 + nota3 + nota4)/4;
-		System.out.println("Sua média é: " + media);
+		System.out.printf("Sua média é: %.1f" , media);
 	
 	}
 
