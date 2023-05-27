@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class Exercício4 {
 	public static void main(String[] args) {
 		
-        String class1, class2, class3 = "Hello World";
+        String class1, class2, class3;
 		
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("Defina Class1: ");
+		System.out.println("Defina Classe 1: ");
 		class1 = ler.next();
-		System.out.println("Defina Class2: ");
+		System.out.println("Defina Classe 2: ");
 		class2 = ler.next();
-		System.out.println("Defina Class3: ");
+		System.out.println("Defina Classe 3: ");
 		class3 = ler.next();
 		
 		if(class1.equalsIgnoreCase("Vertebrado") 

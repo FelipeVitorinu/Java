@@ -14,21 +14,17 @@ public class Exercicio3 {
         System.out.println("Qual a sua Idade?");
         idade = leia.nextInt();
         
-        if(idade >= 60) {
+        if(idade >= 60 && idade <= 69) {
         	System.out.println("Essa é a sua primeira doação? (Sim/Não)");
             resposta = leia.next();
         }else {
         	resposta = "Sim";
         }
-        
-        
-       if(resposta == "Sim") {
+        if(resposta == "Sim") {
     	   pd = true;
        }else {
     	   pd = false;
-        }
-       
-       if(idade > 18 && idade < 60) {
+        }if(idade > 18 && idade < 60) {
     	   System.out.println(nome + " você está apto para doar sangue.");
        }else if(idade >= 60 && idade <= 69 && pd == false) {
     	   System.out.println(nome + " você está apto para doar sangue.");
