@@ -18,13 +18,14 @@ public class Exercicio1 {
 			System.out.println("**************************************************");
 			System.out.println("Qual a Opção Desejada? ");
 			opcao = leia.nextInt(); 
+			leia.nextLine();
 			
 			
 			switch(opcao) {
 			case 1:
 				System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 				System.out.print("Informe o Nome do Livro: ");
-				livro = leia.next();
+				livro = leia.nextLine();
 				pilha.push(livro);
 				System.out.println("Livro Adicionado a Pilha.");
 				break;
@@ -41,8 +42,7 @@ public class Exercicio1 {
 						System.out.println("\n\n\n\n\n\n\n\n\n");
 						System.out.println("Pilha: \n" + pilha);
 						System.out.println("O Livro foi Retirado da Pilha.");
-						break;
-				}
+				}break;
 			case 4:
 				System.out.println("\n\n\n\n\n\n\n\n\n");
 				System.out.println("Programa Finalizado.");
