@@ -1,4 +1,4 @@
-package laco_condicional_do_while;
+package laco_repeticao_do_while;
 import java.util.Scanner;
 
 public class Exercicio1 {
